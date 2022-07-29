@@ -64,9 +64,7 @@ h2{
 }
 
 @media screen and (max-width: 576px) {
-    .content{
-        width: 90%;
-    }
+    
     h1{
         font-size: 20px;
     }
@@ -76,12 +74,6 @@ h2{
     .slider p{
         font-size: 12px;
         line-height: 18px;
-    }
-    .register{
-        text-align: center;
-    }
-    .myslider img{
-        width: 100%;
     }
     .review img{
         width:20%;
@@ -130,10 +122,6 @@ h2{
     }
     p{
         font-size: 12px;
-    }
-    .slider p{
-        font-size: 15px;
-        line-height: 18px;
     }
     .lefticon{
         position: absolute;
