@@ -17,24 +17,26 @@ h2{
     font-weight: 600;
     font-size: 45px;
 }
+/* carousel style  */
 .myslider img{
     filter: brightness(50%);
 }
 
+/* Explore section style  */
+.mybg{
+    background-color: #F4FAFD;
+}
+
+/* feedback section style  */
 .review img{
     width:10%;
     height:10%;
     border-radius: 50%;
     margin-right: 10px;
 }
-
-.mybg{
-    background-color: #F4FAFD;
-}
 .comma{
     width: 10%;
 }
-
 .review-box{
     position: relative;
 }
@@ -63,6 +65,12 @@ h2{
     text-align: center;
 }
 
+
+
+
+
+/* Mobile responsive  */
+
 @media screen and (max-width: 576px) {
     
     h1{
@@ -71,10 +79,12 @@ h2{
     h2{
         font-size: 18px;
     }
+    /* carousel section style  */
     .slider p{
         font-size: 12px;
         line-height: 18px;
     }
+    /* feedback section style  */
     .review img{
         width:20%;
     }
@@ -110,10 +120,11 @@ h2{
 }
     
 
+
+
+
+/* Tablet responsive */
 @media screen and (min-width: 768px) and (max-width: 991px) {
-    .content{
-        width: 90%;
-    }
     h1{
         font-size: 50px;
     }
@@ -123,6 +134,7 @@ h2{
     p{
         font-size: 12px;
     }
+    /* feedback section style  */
     .lefticon{
         position: absolute;
         left: -5%;
