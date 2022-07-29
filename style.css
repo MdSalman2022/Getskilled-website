@@ -4,7 +4,7 @@ body{
     font-family: 'Poppins', sans-serif;
     margin: auto;
 }
-.content{    
+.mycontainer{    
     width: 80%;
     margin: auto;
 }
@@ -63,16 +63,19 @@ h2{
     text-align: center;
 }
 
-
 @media screen and (max-width: 576px) {
     .content{
-        width: 100%;
+        width: 90%;
     }
     h1{
-        font-size: 25px;
+        font-size: 20px;
     }
     h2{
-        font-size: 20px;
+        font-size: 18px;
+    }
+    .slider p{
+        font-size: 12px;
+        line-height: 18px;
     }
     .register{
         text-align: center;
@@ -82,38 +85,76 @@ h2{
     }
     .review img{
         width:20%;
-        height:20%;
-        margin-right: 5px;
     }
-    .review-box{
-        position: relative;
+
+    .comma{
+        width: 30%;
     }
+    
     .lefticon{
         position: absolute;
-        left: -4%;
+        left: -10%;
         top: 45%;
         border-radius: 90%;
         font-size: 30px;
         background-color: #E5F6FF;
         color: #289BDE;
         padding: 15px;
-        width: 8%;
+        width: 20%;
         text-align: center;
     }
     .righticon{
         position: absolute;
-        right: -4%;
+        right: -10%;
         top: 45%;
         border-radius: 90%;
         font-size: 30px;
         background-color: #289BDE;
         color: #fff;
         padding: 15px;
-        width: 8%;
+        width: 20%;
         text-align: center;
     }
-    .company{
-        display: none;
+}
+    
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+    .content{
+        width: 90%;
+    }
+    h1{
+        font-size: 50px;
+    }
+    h2{
+        font-size: 40px;
+    }
+    .slider p{
+        font-size: 15px;
+        line-height: 18px;
+    }
+    .lefticon{
+        position: absolute;
+        left: -5%;
+        top: 45%;
+        border-radius: 90%;
+        font-size: 30px;
+        background-color: #E5F6FF;
+        color: #289BDE;
+        padding: 15px;
+        width: 10%;
+        text-align: center;
+    }
+    .righticon{
+        position: absolute;
+        right: -5%;
+        top: 45%;
+        border-radius: 90%;
+        font-size: 30px;
+        background-color: #289BDE;
+        color: #fff;
+        padding: 15px;
+        width: 10%;
+        text-align: center;
     }
 }
     
